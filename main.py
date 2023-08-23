@@ -98,6 +98,7 @@ ______________________________________________________
 
 if __name__=="__main__":
     print(logo)
+    isGameLoaded=[0]
 
     while 1:
         choice =input("New game or load a game?(N/L) : ").replace(" ", "").lower()
