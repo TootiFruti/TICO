@@ -234,7 +234,7 @@ def run():
                 isPlayer1Turn = True
         except KeyboardInterrupt:
             closing(move, playerName1, playerName2, isGameLoaded,
-                    filename, isPlayer1Turn=True, isPlayer2Turn=False)
+                    filename, isPlayer1Turn=True, isPlayer2Turn=True)
         try:
             if isPlayer2Turn:
                 drawBoard(move)
